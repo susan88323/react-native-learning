@@ -10,31 +10,31 @@
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		uJ8dPaHt75z19ijs08lkugHq/RA=
+		ooz0sIAaLKBGoFU5iKq8DR11NmY=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		JBrL6En4QJlYoMl3malqnJmn+O8=
+		R/knOPjsjrJNiVtUa2S4kYE749M=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dbDeE0h2Hr7N2KnFoER4aHgVj90=
+		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		6TSFXZwgmlONmxMDFLs4kWApLLU=
+		K7jOt4uC+lqy/StneXlQVk21axY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		GppB8PhBSInv7zFg7eYcqNwZWXQ=
+		M3EBma1BpAxt7iGIjYcrm9BnNOc=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		v6itdPCqWnawODUfQYc+nRyGDJY=
+		5EUn1qFgVTwSkfSLCubcLwgrx0c=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -47,11 +47,15 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		iStWmEB1q6TTpoeht5O8TSdKtb0=
+		Etc/8BPenX54rv1uBx24u4bnqTg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4Z56Tel3qXgrhGN0Vb1WNByCTgY=
+		/A7nObXlSZFiyR5asDob7iXMcjk=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +67,19 @@
 		</data>
 		<key>PlugIns/myfirstappTests.xctest.dSYM/Contents/Resources/DWARF/myfirstappTests</key>
 		<data>
-		FB7OyumgXS9fsRR6AAJm4cNsOeU=
+		4rVZKwO1j5rFU35tCN6EZyKgjAI=
 		</data>
 		<key>PlugIns/myfirstappTests.xctest/Info.plist</key>
 		<data>
-		zKLdainVyHJwp7B8D0g1Tf/9irE=
+		HlsraRWZ2QoEqefftXOvvd0FJJI=
 		</data>
 		<key>PlugIns/myfirstappTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		6QwblqKV9nBFivo3UW732GiE/Zk=
+		91UHievjeNmlht/3CypTGNnfAIg=
 		</data>
 		<key>PlugIns/myfirstappTests.xctest/myfirstappTests</key>
 		<data>
-		+PXK3jkslWvJ05Oxbx4RbKrcUb8=
+		wepwnE0sp6qLXpkIaD+1qVajAy4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -95,77 +99,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uJ8dPaHt75z19ijs08lkugHq/RA=
+			ooz0sIAaLKBGoFU5iKq8DR11NmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d6d8CZAcM6Kdjf0zJpNR/lLlm1JBIL+jo73yQnC1M8w=
+			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JBrL6En4QJlYoMl3malqnJmn+O8=
+			R/knOPjsjrJNiVtUa2S4kYE749M=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/Q7YarUOESTurbho30IqTRcE6OiUWHnLdfDSMUbyIs=
+			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dbDeE0h2Hr7N2KnFoER4aHgVj90=
+			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			br5JnbDDYJqW9qsLElibwrloxLI/qAE+fWw2nPP0c5Y=
+			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6TSFXZwgmlONmxMDFLs4kWApLLU=
+			K7jOt4uC+lqy/StneXlQVk21axY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZ1ASodl//MKBSICK68FJm/CdWCR8khtshgaFC/ieak=
+			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VkelzrG8Kuv+tr/kUIl+vuviJ8HN2lva55atmSO9r6A=
+			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GppB8PhBSInv7zFg7eYcqNwZWXQ=
+			M3EBma1BpAxt7iGIjYcrm9BnNOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tkN5JJG6yN6ivA9JyljUiNPAUHZ189GU4IPEXdsKs1k=
+			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v6itdPCqWnawODUfQYc+nRyGDJY=
+			5EUn1qFgVTwSkfSLCubcLwgrx0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			SuG0eC2epXej+0FOC+J+gltXGdKlh2SgWTAjCWbsFP0=
+			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -185,11 +189,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iStWmEB1q6TTpoeht5O8TSdKtb0=
+			Etc/8BPenX54rv1uBx24u4bnqTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			inYnSzARwOiRjT2jEooaoBbVT1Ux8ckVmKUBouHF4mk=
+			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			</data>
+		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
 			</data>
 		</dict>
 		<key>PlugIns/myfirstappTests.xctest.dSYM/Contents/Info.plist</key>
@@ -207,44 +222,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FB7OyumgXS9fsRR6AAJm4cNsOeU=
+			4rVZKwO1j5rFU35tCN6EZyKgjAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			erNjuwQzgdz1O3VH+BXM1oJXKWjQTKqQqOnK5fxhrbA=
+			0spbwOet9DHkpbnixRY2syurZ5zCbUSb5F7E2G7Ta6c=
 			</data>
 		</dict>
 		<key>PlugIns/myfirstappTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zKLdainVyHJwp7B8D0g1Tf/9irE=
+			HlsraRWZ2QoEqefftXOvvd0FJJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			vw/ObUcoO6UIW0/nlYjt8yOBsqIjxZQe8xtJV782TvY=
+			UDvMHxjwObDQFCuPnObAV7y5PY8xgXgo5Usi9AuMSHs=
 			</data>
 		</dict>
 		<key>PlugIns/myfirstappTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6QwblqKV9nBFivo3UW732GiE/Zk=
+			91UHievjeNmlht/3CypTGNnfAIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hSLwDVhfRzCEvSvbIVjIYWhP54yfqSc+x5BI82DZi/M=
+			+91+1V0v/H2b1J/xesL1zn2BC+C6qYTg7gik5GEb9hc=
 			</data>
 		</dict>
 		<key>PlugIns/myfirstappTests.xctest/myfirstappTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+PXK3jkslWvJ05Oxbx4RbKrcUb8=
+			wepwnE0sp6qLXpkIaD+1qVajAy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sv/BRf1FlQpxvYGsrc16Qlh1JhFLxnMnV4pp6W8DfUw=
+			nSXiCf+5EucyvL+ZfIAnmdMBBuTY6omE/CYzD6g+MT4=
 			</data>
 		</dict>
 	</dict>
