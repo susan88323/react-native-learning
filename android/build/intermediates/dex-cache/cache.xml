@@ -3,75 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6cb249f651314bcc22852e85bfac10deac9d85bb.jar" />
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_64f517bc06db911aa89368491cfba7a436592901.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_2e11776fd9bfc2c63c647ba6288b264ff4d8be95.jar" />
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_461f069509899a13e18f476177c6839b078cd90b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-image-picker/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2ec1e12ade9cc54f276b9f86d78c1afe62da1fe2.jar" />
+        revision="25.0.1"
+        sha1="9f95540d3b14aed0250ba28dd07beece0df87598">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/myfirstapp-react-native-image-picker-unspecified_08186632af8b9e6637db14af912918af5183c47d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_880bbf5feb8fae2be4c1fcd22b06d6b004711e1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c2a6f2fbb66ca42d4cd2b339bd77b41fd6c92366.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7f429142bf53fa7ef7e747f52b57bc9073fd7f22.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e9ea7699b195a52d427d07789c6457889e4ea1d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_9ab9d635c5bbeed4995a4ee2dcd35c225e398f96.jar" />
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_6c3c2081372eaf4278e11561d613ac242f06b4a4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,30 +48,147 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_29143f9fe62744448914a88f77b9d766032d6c39.jar" />
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_ea0869c27c6bf68b39ab8273038fb1ced06a24c1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_0f5f8fcfcede3ccd2eaa0dfdee829cd3e1cf6eb8.jar" />
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5a77deacc1ea5e69816fa0ec5942562e87985413.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_ef3092d98a4073a20300a63498744347d28d5fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_db408d65077781601d6f9fa5afafb2221538f729.jar" />
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_1a797f8b1192033d9b3c1f2c8d28da2f871aa6c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e9ea7699b195a52d427d07789c6457889e4ea1d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6cb249f651314bcc22852e85bfac10deac9d85bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_d2701881263cd573d67157257bd6e81eb9c1a8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_2f9b9a9458add7d2d491667b7b22a9af5bd4dcf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/myfirstapp-react-native-vector-icons-unspecified_15bc238adf1b7e7a9609bd283b049be1b9d576d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_880bbf5feb8fae2be4c1fcd22b06d6b004711e1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2ec1e12ade9cc54f276b9f86d78c1afe62da1fe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_c880fc891fed469bfba879e9c6ff37d0c93cf97d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7f429142bf53fa7ef7e747f52b57bc9073fd7f22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6cb249f651314bcc22852e85bfac10deac9d85bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_41de02efbd301712f8dfcea831df41a9d9ca9324.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_1a797f8b1192033d9b3c1f2c8d28da2f871aa6c6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,33 +198,6 @@
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
         <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_461f069509899a13e18f476177c6839b078cd90b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_654ff7db92aa957d719dfc5de431ff28dfe196d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9896f336342c9f7de43387630517f51d808a446b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_43b5722fe419b811788c83a05ac31bc4b47c3533.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,12 +219,102 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_7e9f4623ad234ca55746ac10acf81684a09ea985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7f429142bf53fa7ef7e747f52b57bc9073fd7f22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_fe7075555d1cf2abcb5d72976db0017018b3fc95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_1191f4988d96c05596f7f9214bf2dc8b6be0d6b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_180fd6f9647412762701861db16e3455470a17e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_088dbfc4034fb6103350b73d3f10a8b34cdfe754.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_1b237dcabe499cb689e325420f12bc80fbe3da3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_0a0b11fdca0eae05dd23e6a5cebadf2b0ffd5bd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_abce633dbbd343defe124803ae5704a7fa45104b.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_db408d65077781601d6f9fa5afafb2221538f729.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_43b5722fe419b811788c83a05ac31bc4b47c3533.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_d8faaccba6b258192f857d3f6a40aac49b08e112.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +327,165 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_43b5722fe419b811788c83a05ac31bc4b47c3533.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_880bbf5feb8fae2be4c1fcd22b06d6b004711e1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_db408d65077781601d6f9fa5afafb2221538f729.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_d1f77cf3d0e85e7a314aad70af43b1c231f7dae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_abce633dbbd343defe124803ae5704a7fa45104b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_26731ebd8b41ff606f636d6097dd532468f7b85b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_1a797f8b1192033d9b3c1f2c8d28da2f871aa6c6.jar" />
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_2e11776fd9bfc2c63c647ba6288b264ff4d8be95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2ec1e12ade9cc54f276b9f86d78c1afe62da1fe2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_a49d2bad2e9af320232aeec8dbcefcad96ee046a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e9ea7699b195a52d427d07789c6457889e4ea1d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_654ff7db92aa957d719dfc5de431ff28dfe196d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f37344daadd8e1f04c82a8bc2c6a19fbe643a2dd">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/myfirstapp-react-native-navigation-unspecified_1e2ef740e8d7c949bf0df5bcd4275ffce597e030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9896f336342c9f7de43387630517f51d808a446b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_6adb1c7682e5d2d5d447978cb07074759a50ec91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_654ff7db92aa957d719dfc5de431ff28dfe196d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_9896f336342c9f7de43387630517f51d808a446b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_abce633dbbd343defe124803ae5704a7fa45104b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/susan_wang/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/susan_wang/Documents/react/my-first-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_2e11776fd9bfc2c63c647ba6288b264ff4d8be95.jar" />
     </item>
 
 </items>
