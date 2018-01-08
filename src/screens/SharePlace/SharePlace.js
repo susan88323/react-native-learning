@@ -11,6 +11,10 @@ import PickLocation from '../../components/PickLocation/PickLocation';
 
 
 class SharePlaceScreen extends Component {
+  static navigatorStyle = {
+    navBarButtonColor: "orange"
+  };
+
   state = {
     placeName: ""
   };
