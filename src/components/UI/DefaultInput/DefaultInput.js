@@ -5,7 +5,7 @@ const defaultInput = props => (
   <TextInput
     underlineColorAndroid="transparent"
     {...props}
-    style={[styles.input, props.style]} // The style order is important, the former one will be override
+    style={[styles.input, props.style, !props.valid && props.touched ? styles.invalid : null]} // The style order is important, the former one will be override
   />
 );
 
@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
     padding: 5,
     marginTop: 8,
     marginBottom: 8
+  },
+  invalid: {
+    backgroundColor: "#f9c0c0",
+    borderColor: "red"
   }
 });
 
