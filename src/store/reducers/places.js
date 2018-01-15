@@ -13,7 +13,7 @@ const placesReducer = (state = initialState, action) => {
           key: Math.random(),
           name: action.placeName,
           image: {
-            uri: "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg"
+            uri: action.image.uri
           },
           location: action.location
         })
