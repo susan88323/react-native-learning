@@ -16,7 +16,11 @@ class SharePlaceScreen extends Component {
   };
 
   state = {
-    placeName: ""
+    placeName: "",
+    location: {
+      value: null,
+      valid: false
+    }
   };
 
   constructor(props) {
@@ -41,9 +45,21 @@ class SharePlaceScreen extends Component {
     });
   }
 
+  locationPickedHandler = location => {
+    this.setState(prevState => {
+      return {
+        ...prevState,
+        location: {
+          value: location,
+          valid: true
+        }
+      }
+    });
+  }
+
   placeAddedHandler = () => {
     if (this.state.placeName.trim() !== "") {
-      this.props.onAddPlace(this.state.placeName);
+      this.props.onAddPlace(this.state.placeName, this.state.location.value);
     }
   }
 
@@ -55,12 +71,15 @@ class SharePlaceScreen extends Component {
             <HeadingText>Share a Place with us!</HeadingText>
           </MainText>
           <PickImage />
-          <PickLocation />
+          <PickLocation onLocationPick={this.locationPickedHandler} />
           <PlaceInput
             placeNmae={this.state.placeNmae}
             onChangeText={this.placeNameChangedHandler} />
           <View style={styles.button}>
-            <Button title="Share the Place!" onPress={this.placeAddedHandler} />
+            <Button
+              title="Share the Place!"
+              onPress={this.placeAddedHandler}
+              disabled={!this.state.location.valid} />
           </View>
         </View>
       </ScrollView>
@@ -91,7 +110,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName) => dispatch(addPlace(placeName))
+    onAddPlace: (placeName, location) => dispatch(addPlace(placeName, location))
   };
 };
 

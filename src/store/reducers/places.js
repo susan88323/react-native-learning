@@ -14,7 +14,8 @@ const placesReducer = (state = initialState, action) => {
           name: action.placeName,
           image: {
             uri: "https://static.pexels.com/photos/371633/pexels-photo-371633.jpeg"
-          }
+          },
+          location: action.location
         })
       };
       break;
