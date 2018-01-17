@@ -1,63 +1,75 @@
-import { AsyncStorage } from 'react-native';
-import { TRY_AUTH, AUTH_SET_TOKEN } from "./actionTypes";
+import { AsyncStorage } from "react-native";
+
+import { TRY_AUTH, AUTH_SET_TOKEN, AUTH_REMOVE_TOKEN } from "./actionTypes";
 import { uiStartLoading, uiStopLoading } from "./index";
 import startMainTabs from "../../screens/MainTabs/startMainTabs";
+import App from "../../../App";
+
+const API_KEY = "AIzaSyAHe2H3MbzFRaUidMl8l6wWI_XFfHT-0GA";
 
 export const tryAuth = (authData, authMode) => {
   return dispatch => {
     dispatch(uiStartLoading());
-    const apiKey = "AIzaSyAHe2H3MbzFRaUidMl8l6wWI_XFfHT-0GA";
-    let url = "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=" + apiKey;
+    let url =
+      "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=" +
+      API_KEY;
     if (authMode === "signup") {
-        url = "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=" + apiKey
+      url =
+        "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=" +
+        API_KEY;
     }
-    fetch(
-        url,
-        {
-          method: "POST",
-          body: JSON.stringify({
-            email: authData.email,
-            password: authData.password,
-            returnSecureToken: true
-          }),
-          headers: {
-            "Content-Type": "application/json"
-          }
-        }
-      )
-        .catch(err => {
-          console.log(err);
+    fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        email: authData.email,
+        password: authData.password,
+        returnSecureToken: true
+      }),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+      .catch(err => {
+        console.log(err);
+        alert("Authentication failed, please try again!");
+        dispatch(uiStopLoading());
+      })
+      .then(res => res.json())
+      .then(parsedRes => {
+        dispatch(uiStopLoading());
+        console.log(parsedRes);
+        if (!parsedRes.idToken) {
           alert("Authentication failed, please try again!");
-          dispatch(uiStopLoading());
-        })
-        .then(res => res.json())
-        .then(parsedRes => {
-          dispatch(uiStopLoading());
-          if (!parsedRes.idToken) {
-            alert("Authentication failed, please try again!");
-          } else {
-            dispatch(authStoreToken(parsedRes.idToken, parsedRes.expiresIn));
-            startMainTabs();
-          }
-        });
+        } else {
+          dispatch(
+            authStoreToken(
+              parsedRes.idToken,
+              parsedRes.expiresIn,
+              parsedRes.refreshToken
+            )
+          );
+          startMainTabs();
+        }
+      });
   };
 };
 
-export const authStoreToken = (token, expiresIn) => {
+export const authStoreToken = (token, expiresIn, refreshToken) => {
   return dispatch => {
-    dispatch(authSetToken(token));
     const now = new Date();
     const expiryDate = now.getTime() + expiresIn * 1000;
-    // mfa for my-first-app
-    AsyncStorage.setItem("mfa:auth:token", token);
-    AsyncStorage.setItem("mfa:auth:expiryDate", expiryDate.toString());
+    dispatch(authSetToken(token, expiryDate));
+    AsyncStorage.setItem("ap:auth:token", token);
+    AsyncStorage.setItem("ap:auth:expiryDate", expiryDate.toString());
+    AsyncStorage.setItem("ap:auth:refreshToken", refreshToken);
   };
 };
 
-export const authSetToken = token => {
+export const authSetToken = (token, expiryDate) => {
   return {
     type: AUTH_SET_TOKEN,
-    token: token
+    token: token,
+    expiryDate: expiryDate
   };
 };
 
@@ -65,9 +77,10 @@ export const authGetToken = () => {
   return (dispatch, getState) => {
     const promise = new Promise((resolve, reject) => {
       const token = getState().auth.token;
-      if (!token) {
+      const expiryDate = getState().auth.expiryDate;
+      if (!token || new Date(expiryDate) <= new Date()) {
         let fetchedToken;
-        AsyncStorage.getItem("mfa:auth:token")
+        AsyncStorage.getItem("ap:auth:token")
           .catch(err => reject())
           .then(tokenFromStorage => {
             fetchedToken = tokenFromStorage;
@@ -75,7 +88,7 @@ export const authGetToken = () => {
               reject();
               return;
             }
-            return AsyncStorage.getItem("mfa:auth:expiryDate");
+            return AsyncStorage.getItem("ap:auth:expiryDate");
           })
           .then(expiryDate => {
             const parsedExpiryDate = new Date(parseInt(expiryDate));
@@ -92,10 +105,45 @@ export const authGetToken = () => {
         resolve(token);
       }
     });
-    promise.catch(err => {
-      dispatch(authClearStorage());
-    });
-    return promise;
+    return promise
+      .catch(err => {
+        return AsyncStorage.getItem("ap:auth:refreshToken")
+          .then(refreshToken => {
+            return fetch(
+              "https://securetoken.googleapis.com/v1/token?key=" + API_KEY,
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: "grant_type=refresh_token&refresh_token=" + refreshToken
+              }
+            );
+          })
+          .then(res => res.json())
+          .then(parsedRes => {
+            if (parsedRes.id_token) {
+              console.log("Refresh token worked!");
+              dispatch(
+                authStoreToken(
+                  parsedRes.id_token,
+                  parsedRes.expires_in,
+                  parsedRes.refresh_token
+                )
+              );
+              return parsedRes.id_token;
+            } else {
+              dispatch(authClearStorage());
+            }
+          });
+      })
+      .then(token => {
+        if (!token) {
+          throw new Error();
+        } else {
+          return token;
+        }
+      });
   };
 };
 
@@ -111,7 +159,23 @@ export const authAutoSignin = () => {
 
 export const authClearStorage = () => {
   return dispatch => {
-    AsyncStorage.removeItem("mfa:auth:token");
-    AsyncStorage.removeItem("mfa:auth:expiryDate");
-  }
+    AsyncStorage.removeItem("ap:auth:token");
+    AsyncStorage.removeItem("ap:auth:expiryDate");
+    return AsyncStorage.removeItem("ap:auth:refreshToken");
+  };
+};
+
+export const authLogout = () => {
+  return dispatch => {
+    dispatch(authClearStorage()).then(() => {
+      App();
+    });
+    dispatch(authRemoveToken());
+  };
+};
+
+export const authRemoveToken = () => {
+  return {
+    type: AUTH_REMOVE_TOKEN
+  };
 };
