@@ -36,18 +36,21 @@ export const tryAuth = (authData, authMode) => {
           if (!parsedRes.idToken) {
             alert("Authentication failed, please try again!");
           } else {
-            dispatch(authStoreToken(parsedRes.idToken));
+            dispatch(authStoreToken(parsedRes.idToken, parsedRes.expiresIn));
             startMainTabs();
           }
         });
   };
 };
 
-export const authStoreToken = token => {
+export const authStoreToken = (token, expiresIn) => {
   return dispatch => {
     dispatch(authSetToken(token));
+    const now = new Date();
+    const expiryDate = now.getTime() + expiresIn * 1000;
     // mfa for my-first-app
     AsyncStorage.setItem("mfa:auth:token", token);
+    AsyncStorage.setItem("mfa:auth:expiryDate", expiryDate.toString());
   };
 };
 
@@ -63,19 +66,34 @@ export const authGetToken = () => {
     const promise = new Promise((resolve, reject) => {
       const token = getState().auth.token;
       if (!token) {
+        let fetchedToken;
         AsyncStorage.getItem("mfa:auth:token")
           .catch(err => reject())
           .then(tokenFromStorage => {
+            fetchedToken = tokenFromStorage;
             if (!tokenFromStorage) {
               reject();
               return;
             }
-            dispatch(authSetToken(tokenFromStorage));
-            resolve(tokenFromStorage);
-          });
+            return AsyncStorage.getItem("mfa:auth:expiryDate");
+          })
+          .then(expiryDate => {
+            const parsedExpiryDate = new Date(parseInt(expiryDate));
+            const now = new Date();
+            if (parsedExpiryDate > now) {
+              dispatch(authSetToken(fetchedToken));
+              resolve(fetchedToken);
+            } else {
+              reject();
+            }
+          })
+          .catch(err => reject());
       } else {
         resolve(token);
       }
+    });
+    promise.catch(err => {
+      dispatch(authClearStorage());
     });
     return promise;
   };
@@ -89,4 +107,11 @@ export const authAutoSignin = () => {
       })
       .catch(err => console.log("Failed to fetch token!"));
   };
+};
+
+export const authClearStorage = () => {
+  return dispatch => {
+    AsyncStorage.removeItem("mfa:auth:token");
+    AsyncStorage.removeItem("mfa:auth:expiryDate");
+  }
 };
